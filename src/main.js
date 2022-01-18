@@ -15,7 +15,7 @@ import Loaihang from "./pages/admin/loaihang";
 const router = new Navigo("/", { linksSelector: "a" });
 
 const print = (content) => {
-  document.querySelector(" .container").innerHTML = content;
+  document.querySelector(" #app").innerHTML = content;
 };
 
 router.on({
